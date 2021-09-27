@@ -1,0 +1,146 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+.headerWrapper {
+  display: flex;
+}
+.backgroundImage {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  background: url("https://www.linkpicture.com/q/header_1.jpg");
+  height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.backgroundImagecss {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+.headertext {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+.mainSection {
+  display: flex;
+  background: whitesmoke;
+  flex-direction: column;
+  padding-top: 50px;
+}
+.mainSectionHeader {
+  font-size: 48px;
+}
+.mainSectionHeaders {
+  margin-left: 30px;
+}
+.cardssection {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  background: white;
+  width: 400px;
+}
+.categorySection {
+  display: flex;
+  flex-wrap: wrap;
+}
+.category {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.categorytext {
+  margin-left: 5px;
+  font-size: 12px;
+}
+.postimage {
+}
+.postTitle {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.postTitletext {
+  font-size: 20px;
+}
+.postTitleduration {
+  font-size: 12px;
+  margin-top: 10px;
+  color: grey;
+}
+.postImageCss {
+  width: 100%;
+  max-height: 40rem;
+  object-fit: cover;
+}
+.postsectiondetails {
+  display: flex;
+  flex-direction: column;
+}
+.posttitle {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.authorsection {
+  display: flex;
+  flex-direction: row;
+}
+.authorsectionimage {
+}
+.authorsectioninfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.postsectionWrapper {
+  margin-left: auto;
+  max-width: 60%;
+  margin-right: auto;
+  padding: 20px;
+}
+.pagination {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  color: brown;
+}
+/* .pagination a {
+  color: lightseagreen;
+} */
+.pagination .active {
+  color: white;
+  background: lightseagreen;
+  border-radius: 50px;
+  width: 20px;
+  text-align: center;
+}
+.pagination a {
+  color: darkolivegreen;
+}
+
+.pagination .active a {
+  color: white;
+}
+
+.pagination {
+  list-style-type: none;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
